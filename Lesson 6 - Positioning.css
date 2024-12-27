@@ -1,0 +1,51 @@
+body{
+    color: rgb(0, 125, 4);
+}
+#divstatic{
+    position: static;
+    border: 4px dashed goldenrod;
+    left:50px;
+}
+#divsticky{
+    position: sticky;
+    top: 20px;
+    bottom: 50px;
+    right: 50px;
+    border: 10px solid black;
+
+  
+    
+}
+#divfixed{
+    position:fixed;
+    bottom:50px;
+    border: 4px dotted turquoise;
+   
+}
+#divabsolute{
+    position: absolute;
+    top:0px;
+    right:20px;
+    border-radius: 50%;
+    border: 4px dashed magenta;
+  
+}
+#divrelative{
+    position: relative;
+    border: 4px dotted springgreen;
+}
+#op1{
+    opacity: 1;
+}
+#op2{
+    opacity: 0.75;
+}
+#op3{
+    opacity: 0.5;
+}
+#op4{
+    opacity: 0.25;
+}
+#getridofthis{
+    opacity: 0;
+}
